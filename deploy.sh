@@ -17,12 +17,16 @@ echo "Uploading public folder"
 hugo # if using a theme, replace with `hugo -t <YOURTHEME>`
 
 # Go To Public folder
-cd public
+cd ..
+
+cd lucasbianchi.github.io
+cp -av mi_sitio/public/* .
+ 
 # Add changes to git.
 git add .
 
 # Commit changes.
-msg="Updating public folder `date`"
+msg="Rebuilding site `date`"
 if [ $# -eq 1 ]
   then msg="$1"
 fi
@@ -33,3 +37,4 @@ git push origin master
 
 # Come Back up to the Project Root
 cd ..
+cd mi_sitio
