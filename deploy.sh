@@ -6,6 +6,7 @@ echo ""
 echo ""
 
 echo "Uploading changes of root folder"
+echo ""
 git add .
 git commit -m "Updating site `date`"
 git push -u origin master
@@ -13,6 +14,7 @@ git push -u origin master
 echo ""
 echo ""
 echo "Uploading public folder"
+echo ""
 # Build the project.
 hugo # if using a theme, replace with `hugo -t <YOURTHEME>`
 
