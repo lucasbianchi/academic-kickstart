@@ -13,6 +13,26 @@
   contentDir = "content-es"
   weight = 1
 
+  [[es.menu.main]]
+    name = "Inicio"
+    url = "#about"
+    weight = 10
+
+  [[es.menu.main]]
+    name = "Publicaciones"
+    url = "#publications"
+    weight = 20
+
+  [[es.menu.main]]
+    name = "Projectos"
+    url = "#projects"
+    weight = 40
+
+  [[es.menu.main]]
+    name = "Contacto"
+    url = "#contact"
+    weight = 60
+  
 # Uncomment the lines below to configure your website in a second language.
 #[zh]
 #  languageCode = "zh-Hans"
