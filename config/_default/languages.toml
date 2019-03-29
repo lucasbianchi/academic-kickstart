@@ -24,7 +24,7 @@
     weight = 20
 
   [[es.menu.main]]
-    name = "Projectos"
+    name = "Proyectos"
     url = "#projects"
     weight = 40
 
