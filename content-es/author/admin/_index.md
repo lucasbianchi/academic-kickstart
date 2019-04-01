@@ -67,7 +67,8 @@ interests = [
 [[social]]
   icon = "envelope"
   icon_pack = "fas"
-  link = "#contact"  # For a direct email link, use "mailto:test@example.org".
+# link = "#contact"  # For a direct email link, use "mailto:test@example.org". Si dejo "#contact", te manda al widget de contacto
+  link = "mailto:lbianchi@unrn.edu.ar"  
 
 [[social]]
   icon = "google-scholar"
